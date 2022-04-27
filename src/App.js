@@ -70,7 +70,7 @@ function App() {
               <div className="row">
                 <div className="col-lg-4 col-md-5">
                   <div className="avatar hover-effect bg-white shadow-sm p-1 fade-in-zoom">
-                    <img src="./image/avatar.png" width="200" height="200" />
+                    <img src="./image/Avatar.jpg" width="200" height="200" />
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-7 text-center text-md-start">
