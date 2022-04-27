@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./Css/main.css";
 import "./Css/site.css";
 import "./Css/print.css";
 import "./Css/bootstrap.min.css";
 import "./Css/bootstrap.css";
+import "./Css/main.css";
 
 function App() {
   return (
@@ -70,18 +70,20 @@ function App() {
               <div className="row">
                 <div className="col-lg-4 col-md-5">
                   <div className="avatar hover-effect bg-white shadow-sm p-1 fade-in-zoom">
-                    <img src="./image/avatar.gif" width="200" height="200" />
+                    <img src="./image/avatar.png" width="200" height="200" />
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-7 text-center text-md-start">
-                  <h2 className="h1 mt-2  fade-in-right3">
+                  <h2 className="h1 mt-2  fade-in-right3 hover-effect">
                     Mohamad Hossein Nazari
                   </h2>
-                  <p className="fade-in-right2">FrontEnd Developer</p>
+                  <p className="fade-in-right2 hover-effect">
+                    FrontEnd Developer
+                  </p>
                   <div className="d-print-none">
                     <a
                       className="btn btn-light text-dark shadow-sm mt-1 me-1  fade-in-right"
-                      href="right-resume.pdf"
+                      href="Myresume.pdf"
                       target="_blank"
                     >
                       Download CV
@@ -187,7 +189,7 @@ function App() {
                       <div
                         className="progress-bar bg-primary"
                         role="progressbar"
-                        style={{ width: "75%" }}
+                        style={{ width: "80%" }}
                         aria-valuenow="75"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -263,7 +265,7 @@ function App() {
                   <div className="card-body">
                     <div className="h5 mb-1">
                       FreeLance
-                      <span className="text-muted h6">Self</span>
+                      <span className="text-muted h6"></span>
                     </div>
                     <div className="text-muted text-small mb-2">
                       1397 - 1401
@@ -321,6 +323,81 @@ function App() {
               </div>
             </div>
             <hr className="d-print-none" />
+            <div className="project-section px-3 px-lg-4 pb-4">
+              <h2 className="h3 mb-4">Project</h2>
+              <div className="timeline">
+                <div className="timeline-card timeline-card-success card shadow-sm">
+                  <div className="card-body">
+                    <div className="h5 mb-1">FetNelix</div>
+                    <div className="text-muted text-small mb-2">Website</div>
+                    <div>
+                      ساخت وبسایت فیلم و سریال داینامیک به صورت رست فول ای پی آی
+                      اسفاده از ریداکس و صفحات سینگل پیج
+                    </div>
+                    <a
+                      className="project-button btn shadow-sm mt-1 me-1 "
+                      href="https://fetnelix.vercel.app/"
+                      target="_blank"
+                    >
+                      Go To Website!
+                    </a>
+                  </div>
+                </div>
+                <div className="timeline-card timeline-card-success card shadow-sm">
+                  <div className="card-body">
+                    <div className="h5 mb-1">World War2</div>
+                    <div className="text-muted text-small mb-2">Website</div>
+                    <div></div>
+                    <a
+                      className="project-button btn shadow-sm mt-1 me-1 "
+                      href="https://world-war2.vercel.app/"
+                      target="_blank"
+                    >
+                      Go To Website!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr className="d-print-none" />
+            {/* <div className="about-section pt-4 px-3 px-lg-4 mt-1">
+              <div className="row">
+                <h1 className="col-md-12 offset-md-4"></h1>
+                <div className="col-md-12 offset-md-2">
+                  <div className="row mt-2">
+                    <div className="col-sm-4">
+                      <div className="pb-1">Age</div>
+                    </div>
+                    <div className="col-sm-8">
+                      <div className="pb-1 text-secondary">21</div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="pb-1">Email</div>
+                    </div>
+                    <div className="col-sm-8">
+                      <div className="pb-1 text-secondary">
+                        MohamadHossein.Nazari@yahoo.com
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="pb-1">Phone</div>
+                    </div>
+                    <div className="col-sm-8">
+                      <div className="pb-1 text-secondary">0935-485-9211</div>
+                    </div>
+                    <div className="col-sm-4">
+                      <div className="pb-1">Address</div>
+                    </div>
+                    <div className="col-sm-8">
+                      <div className="pb-1 text-secondary">
+                        تهران - سعادت آباد
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr className="d-print-none" /> */}
             <div className="contant-section px-3 px-lg-4 pb-4" id="contact">
               <h2 className="h3 text mb-3">Contact</h2>
               <div className="row">
