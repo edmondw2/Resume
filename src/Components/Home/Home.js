@@ -277,7 +277,8 @@ function Home() {
                 <div className="card-body">
                   <div className="h5 mb-1">World War2</div>
                   <div className="text-muted text-small mb-2">Website</div>
-                  <div></div>
+
+                  <div>وبسایت کاستوم رست فول ای پی ای و سینگل پیج</div>
                   <a
                     className="project-button btn shadow-sm mt-1 me-1 "
                     href="https://world-war2.vercel.app/"
