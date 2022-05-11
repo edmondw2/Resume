@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+export default function English() {
   return (
     <div className="page-content">
       <div className="container">
@@ -47,13 +47,12 @@ function Home() {
                     fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
                   }}
                 >
-                  <h5> محمد حسین نظری</h5>
-                  <br /> دانشجوی رشته ی مهندسی کامپیوتر , برنامه نویسی رو از
-                  هنرستان کامپیوتر شروع کردم علاقه من به برنامه نویسی در حوضه ی
-                  وب و صنعت گیمینگ باعث شد در این مسیر موفق باشم و بتونم در به
-                  بهترین نحو ممکن با علاقه اموزش ببینم و کار کنم و درحال تلاش
-                  برای افزایش مهارت های برنامه نویسی و اماده همکاری با یک شرکت
-                  در حوضه برنامه نویسی هستم
+                  <h5> Mohamad Hossein Nazari</h5>
+                  <br /> Computer Engineering Student From Azad Univercity.
+                  <br /> I started programming from high school , My interest in
+                  programming in the web Development and gaming industry made me
+                  successful in this field.I'm trying to improve my programming
+                  skills and work with a company in the field of programming.
                 </p>
               </div>
               <div className="col-md-5 offset-md-1">
@@ -76,15 +75,13 @@ function Home() {
                     <div className="pb-1">Phone</div>
                   </div>
                   <div className="col-sm-8">
-                    <div className="pb-1 text-secondary">0935-485-9211</div>
+                    <div className="pb-1 text-secondary">+98 935-485-9211</div>
                   </div>
                   <div className="col-sm-4">
-                    <div className="pb-1">Address</div>
+                    <div className="pb-1">Residence</div>
                   </div>
                   <div className="col-sm-8">
-                    <div className="pb-1 text-secondary">
-                      تهران - سعادت آباد
-                    </div>
+                    <div className="pb-1 text-secondary">Tehran - Iran</div>
                   </div>
                 </div>
               </div>
@@ -200,12 +197,13 @@ function Home() {
                     Frontend Developer{" "}
                     <span className="text-muted h6">Mapsa Hr</span>
                   </div>
-                  <div className="text-muted text-small mb-2">1399 - 1400</div>
+                  <div className="text-muted text-small mb-2">2020 - 2021</div>
                   <div className="Font-Persian">
-                    در دوره ی کارآموزی شرکت مپصا شرکت داشتم و در طول این دوره
-                    مهارت هایی نظیر کامل کردن کد نویسی جاوا اسکریپت و دوره
-                    اموزشی کامل و پروژه محور ری اکت , تایپ اسکریپت و نکست به
-                    صورت کار تیمی و پروژه محور انجام شد
+                    I participated in the internship course of Mapsa Company and
+                    during this course Skills such as completing JavaScript and
+                    course coding Complete training and project-based React,
+                    type script and Next to Teamwork and project-oriented work
+                    was done
                   </div>
                 </div>
               </div>
@@ -215,13 +213,12 @@ function Home() {
                     FreeLance
                     <span className="text-muted h6"></span>
                   </div>
-                  <div className="text-muted text-small mb-2">1397 - 1401</div>
+                  <div className="text-muted text-small mb-2">2018 - 2022</div>
                   <div className="Font-Persian">
-                    کار ازاد رو از زمان هنرستان وقتی که وارد حوضه ی برنامه نویسی
-                    شدم انجام میدادم اولین بار به حوضه ی وردپرس کار میکردم و در
-                    کل به حوضه ی وب علاقه مند شدم کارهای فریلنسر من میشه به
-                    انجام پروژه های <br /> UI/UX <br /> در حوضه ی گیم سرور های
-                    ایرانی و وبسایت اشاره کرد
+                    Freelance work since high school when he entered the field
+                    of programming I was doing it for the first time working in
+                    the WordPress domain and in I'm totally interested in the
+                    web basin UI | UX in the Game server and websites.
                   </div>
                 </div>
               </div>
@@ -234,30 +231,31 @@ function Home() {
             <div className="timeline">
               <div className="timeline-card timeline-card-success card shadow-sm">
                 <div className="card-body">
-                  <div className="h5 mb-1">مهندسی کامپیوتر</div>
-                  <div className="text-muted text-small mb-2">1399</div>
+                  <div className="h5 mb-1">Computer Engineering</div>
+                  <div className="text-muted text-small mb-2">Since 2020</div>
                   <div>
-                    دانشجوی مهندسی کامپیوتر در دانشگاه ازاد اسلامی تهران واحد
-                    الکترونیکی هستم
+                    Computer Engineering Student Of Azad Univercity on
+                    electrinic unit
                   </div>
                 </div>
               </div>
               <div className="timeline-card timeline-card-success card shadow-sm">
                 <div className="card-body">
-                  <div className="h5 mb-1">دیپلم کامپیوتر</div>
-                  <div className="text-muted text-small mb-2">1396 - 1399</div>
+                  <div className="h5 mb-1">Diploma</div>
+                  <div className="text-muted text-small mb-2">2017 - 2020</div>
                   <div>
-                    دیپلم کامپیوتر خودم رو با معدل 18.97 از هنرستان دانش رایانه
-                    دریافت کردم
+                    I got my computer diploma with a grade point average of
+                    18.97 from high school
                   </div>
                 </div>
               </div>
               <div className="timeline-card timeline-card-success card shadow-sm">
                 <div className="card-body">
-                  <div className="h5 mb-1">دوره ی برنامه نویسی وب</div>
-                  <div className="text-muted text-small mb-2">1399 - 1400</div>
+                  <div className="h5 mb-1">Web programming course</div>
+                  <div className="text-muted text-small mb-2">2020 - 2021</div>
                   <div>
-                    کسب گواهی موفقیت دوره ی آموزشی کامل وب و <br />
+                    Obtaining a certificate of success of a complete web
+                    training course And <br />
                     React - TypeScript - NextJs
                   </div>
                 </div>
@@ -273,8 +271,8 @@ function Home() {
                   <div className="h5 mb-1">FetNelix</div>
                   <div className="text-muted text-small mb-2">Website</div>
                   <div>
-                    ساخت وبسایت فیلم و سریال داینامیک به صورت رست فول ای پی آی
-                    اسفاده از ریداکس و صفحات سینگل پیج
+                    Creating a full dynamic movie and series website in restfull
+                    api Use Redax and single page aplication(SPA)
                   </div>
                   <a
                     className="project-button btn shadow-sm mt-1 me-1 "
@@ -290,7 +288,10 @@ function Home() {
                   <div className="h5 mb-1">World War2</div>
                   <div className="text-muted text-small mb-2">Website</div>
 
-                  <div>وبسایت کاستوم رست فول ای پی ای و سینگل پیج</div>
+                  <div>
+                    customized a world war 2 historicall website with custom api
+                    and (SPA)
+                  </div>
                   <a
                     className="project-button btn shadow-sm mt-1 me-1 "
                     href="https://world-war2.vercel.app/"
@@ -351,10 +352,10 @@ function Home() {
               </div>
               <div className="col">
                 <div className="mt-2">
-                  <h3 className="h6">Address</h3>
-                  <div className="pb-2 text-secondary">سعادت اباد</div>
+                  <h3 className="h6">Residence</h3>
+                  <div className="pb-2 text-secondary">Tehran - Iran</div>
                   <h3 className="h6">Phone</h3>
-                  <div className="pb-2 text-secondary">0935-485-9211</div>
+                  <div className="pb-2 text-secondary">+98 935-485-9211</div>
                   <h3 className="h6">Email</h3>
                   <div className="pb-2 text-secondary">
                     MohamadHossein.Nazari@yahoo.com
@@ -398,4 +399,3 @@ function Home() {
     </div>
   );
 }
-export default Home;

@@ -151,6 +151,73 @@ html {
     opacity: 1;
   }
 }
+
+.fade-in-progressbar {
+  animation: animatelefts 1s;
+}
+@keyframes animatelefts {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 95%;
+  }
+}
+.fade-in-progressbar2 {
+  animation: animatelefts2 1s;
+}
+@keyframes animatelefts2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+.fade-in-progressbar3 {
+  animation: animatelefts3 1s;
+}
+@keyframes animatelefts3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+.fade-in-progressbar4 {
+  animation: animatelefts4 1s;
+}
+@keyframes animatelefts4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 85%;
+  }
+}
+.fade-in-progressbar5 {
+  animation: animatelefts5 1s;
+}
+@keyframes animatelefts5 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+.fade-in-progressbar6 {
+  animation: animatelefts6 1s;
+}
+@keyframes animatelefts6 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
 .nav-link:hover,
 .nav-link:focus,
 .active .nav-link {

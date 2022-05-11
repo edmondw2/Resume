@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="pt-4 pb-4 text-muted text-center d-print-none">
-      <div className="container">
+      <div className="containerfooter">
         <div className="my-3">
           <div className="footer-nav">
             <nav role="navigation">

@@ -1,9 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Layout.css";
 
 function Header() {
   return (
     <header className="d-print-none">
       <div className="container text-center text-lg-left">
+        <div className="navbarlang py-3 clearfix">
+          <Link to="/" className="LinkTo">
+            Persian
+          </Link>
+          <span> | </span>
+          <Link to="/english" className="LinkTo">
+            English
+          </Link>
+        </div>
         <div className="py-3 clearfix">
           <div className="site-nav">
             <nav role="navigation">

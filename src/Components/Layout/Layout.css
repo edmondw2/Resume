@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.containerfooter {
+  display: flex;
+  justify-content: center;
+}
+.LinkTo {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border: 2px solid green;
+  border-radius: 10px;
+  text-decoration: none;
+}
