@@ -22,8 +22,9 @@ function Home() {
                 <div className="d-print-none">
                   <a
                     className="btn btn-light text-dark shadow-sm mt-1 me-1  fade-in-right"
-                    href="Myresume.pdf"
+                    href="./cvdownload/MyResume.pdf"
                     target="_blank"
+                    download
                   >
                     Download CV
                   </a>
